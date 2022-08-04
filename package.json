@@ -9,10 +9,18 @@
   "scripts": {
     "test": "echo $npm_package_name && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.4.0",
     "download-git-repo": "^3.0.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1"
   }
 }
