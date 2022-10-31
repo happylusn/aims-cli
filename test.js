@@ -50,5 +50,5 @@
 // console.log(chalk.green('npm install'))
 import fs from 'fs'
 // const fs = require('fs')
-
+const ss = 100
 fs.writeFileSync('./aa/t1.txt', '开始上课ss')
