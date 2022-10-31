@@ -48,7 +48,7 @@
 // }, 100)
 // import chalk from 'chalk'
 // console.log(chalk.green('npm install'))
-// import fs from 'fs'
-const fs = require('fs')
+import fs from 'fs'
+// const fs = require('fs')
 
 fs.writeFileSync('./aa/t1.txt', '开始上课ss')
