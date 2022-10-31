@@ -14,8 +14,9 @@
   "lint-staged": {
     "*.{js,ts}": [
       "npx prettier --write",
-      "git add ."
-    ]
+      "git add"
+    ],
+    "test.js": ["git rm --cached"]
   },
   "author": "",
   "license": "ISC",
