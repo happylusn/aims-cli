@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "aims": "index.js"
   },
   "scripts": {
     "test": "echo $npm_package_name",
+    "lint": "prettier --write ./lib/core/questions.js",
     "prepare": "husky install"
   },
   "lint-staged": {

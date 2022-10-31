@@ -46,5 +46,8 @@
 //     clearInterval(timer)
 //   }
 // }, 100)
-import chalk from 'chalk'
-console.log(chalk.green('npm install'))
+// import chalk from 'chalk'
+// console.log(chalk.green('npm install'))
+import fs from 'fs'
+
+fs.writeFileSync('./aa/t1.txt', '开始上课ss')
